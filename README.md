@@ -48,3 +48,19 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+
+### Примеры запросов
+
+Получение списка всех постов:
+```
+    GET /api/v1/posts/
+```
+Создание нового поста:
+```
+    POST /api/v1/posts/
+    body: {"text": "string"}
+```
+Получение поста по его id
+```
+    GET /api/v1/posts/{post_id}/
+```
