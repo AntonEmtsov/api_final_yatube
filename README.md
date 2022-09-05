@@ -1,6 +1,9 @@
 # API для Yatube.
+<<<<<<< HEAD
 API для проекта YaTube, основанный на Django-Rest-Framework
 
+=======
+>>>>>>> 74210bb1dd09777773cc67a1f9900f600e98dd50
 Документация к API: http://127.0.0.1:8000/redoc/
 
 ### Как запустить проект:
